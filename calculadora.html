@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/IMAGENES/iconSisSolar.png" />
+    <title>Peso en otros planetas</title>
+    <style >
+        body
+            { background-image: url(/IMAGENES/fondoEspacio2.png); color: red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              overflow-y: hidden!important;
+            }
+            
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1>EL PESO DE UN SER HUMANO NO ES EL MISMO EN OTROS PLANETAS</h1>
+    <h2> ¿Quieres saber cuento pesas en otros planetas?</h2>
+    <p>Si tu respuesta fue "Sí", tan solo tienes que ingresar tu peso en el siguiente recuadro:
+        <input type="number" placeholder="Peso en Kg " id="pesoUsuario" /> <input type="button" value="Calcular" id="enviarInfo"/>
+    </p>
+    </center>
+    <div>
+        <!-- contenido sobre el Sol-->
+        <div style="position:relative; right: 10px; width: 280px; height: 680px;"><img src="IMAGENES/señorSol3.png" alt="Sol" width="280px" height="680px" /></div>
+        <div style="position: relative; left: 30px; bottom: 50px; font-size: 15px; font-weight: 800; color: orange; width: 30px; height: 15px;">SOL</div>
+        <input type="text" style="position: relative; bottom: 45px; left: 5px;" size="6" placeholder="Tu peso" id="salidaSol" />
+        <!--contenido sobre Mercurio-->
+        <div style="position: relative; bottom: 413px; left: 320px; width: 35px; height: 35px;"><img src="/IMAGENES/mercurio.png" alt="Mercurio" width="35px" height="35px" /></div>
+        <div style="position: relative; bottom: 410px; left: 300px; font-size: 15px; font-weight: 800; color: orange; width: 85px; height: 10px; ">MERCURIO</div>
+        <input type="text" style="position: relative; bottom: 401px; left: 303px;" size="4" placeholder="Tu peso" id="salidaMercurio" />
+        <!--conternido sobre Venus-->
+        <div style="position: relative; bottom: 484px; left: 425px; width: 40px; height: 40px;"><img src="/IMAGENES/venus.png" alt="Venus"  width="40px" height="40px" /></div>
+        <div style="position: relative; bottom: 481px; left: 422px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">VENUS</div>
+        <input type="text" style="position: relative; bottom: 477px; left: 412px;" size="4" placeholder="Tu peso" id="salidaVenus" />
+        <!--contenido sobre la Tierra-->
+        <div style="position: relative; bottom: 582px; left: 535px; width: 65px; height: 65px;"><img src="/IMAGENES/tierra.png" alt="Tierra" width="65px" height="65px" /></div>
+        <div style="position: relative; bottom: 582px; left: 544px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">TIERRA</div>
+        <input type="text" style="position: relative; bottom: 578px; left: 536px;" size="4" placeholder="Tu peso" id="salidaTierra" />
+        <!--Contenido sobre Marte-->
+        <div style="position: relative; bottom: 661px; left: 670px; width: 40px; height: 40px;"><img src="/IMAGENES/marte.png" alt="Marte" width="40px" height="40px" /></div>
+        <div style="position: relative; bottom: 658px; left: 666px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">MARTE</div>
+        <input type="text" style="position: relative; bottom: 654px; left: 657px;" size="4" placeholder="Tu peso" id="salidaMarte" />
+        <!--Contenido de Jupiter-->
+        <div style="position: relative; bottom: 852px; left: 800px; width: 150px; height: 156px;"><img src="/IMAGENES/jupiter.png" alt="Jupiter" width="150px" height="156px" /></div>
+        <div style="position: relative; bottom: 850px; left: 845px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">JúPITER</div>
+        <input type="text" style="position: relative; bottom: 846px; left: 838px;" size="5" placeholder="Tu peso" id="salidaJupiter" />
+        <!--Contenido de Saturno-->
+        <div style="position: relative; bottom: 1027px; left: 1035px; width: 300px; height: 150px;"><img src="/IMAGENES/saturno.png" alt="Saturno" width="300px" height="150px" /></div>
+        <div style="position: relative; bottom: 1036px; left: 1145px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">SATURNO</div>
+        <input type="text" style="position: relative; bottom: 1032px; left: 1146px;" size="4" placeholder="Tu peso" id="salidaSaturno" />
+        <!--Contenido de Urano-->
+        <div style="position: relative; bottom: 1182px; left: 1425px; width: 110px; height: 108px;"><img src="/IMAGENES/urano.png" alt="Urano" width="110px" height="108px" /></div>
+        <div style="position: relative; bottom: 1180px; left:1456px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">URANO</div>
+        <input type="text" style="position: relative; bottom: 1176px; left: 1450px;" size="4" placeholder="Tu peso" id="salidaUrano" />
+        <!--Contenido de Neptuno-->
+        <div style="position:relative; bottom: 1324px; left: 1615px; width: 115px; height: 115px;"><img src="/IMAGENES/neptuno.png" alt="Neptuno" width="115px" height="115" /></div>
+        <div style="position: relative; bottom: 1331px; left:1640px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">NEPTUNO</div>
+        <input type="text" style="position: relative; bottom: 1327px; left: 1642px;" size="4" placeholder="Tu peso" id="salidaNeptuno" />
+        <!--Contenido de Pluton-->
+        <div style="position:relative; bottom: 1405px; left: 1808px; width: 35px; height: 35px;"><img src="/IMAGENES/pluton.png" alt="Pluton" width="35px" height="35px"/></div>
+        <div style="position: relative; bottom: 1402px; left:1795px; font-size: 15px; font-weight: 800; color: orange; width: 50px; height: 15px;">PLUTÓN</div>
+        <input type="text" style="position: relative; bottom: 1398px; left: 1792px;" size="4" placeholder="Tu peso" id="salidaPluton" />
+    </div>
+    <script src="codgicalculadora.js"></script>
+</body>
+</html>
